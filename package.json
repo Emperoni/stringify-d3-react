@@ -1,0 +1,33 @@
+{
+  "name": "create-and-drag-circles",
+  "version": "0.0.1",
+  "description": "Create a d3 svg object that can display a random number of circles that can be dragged.",
+  "main": "app.js",
+  "scripts": {
+    "transpile": "babel --presets react,es2015 js/source -d js/build | type CSS\\components\\* css\\* > bundle.css | browserify js/build/app.js -o bundle.js"
+  },
+  "engines": {
+    "node": "~4.0"
+  },
+  "keywords": [
+    "D3.js",
+    "React.js",
+    "Node.js"
+  ],
+  "author": {
+    "name": "Daniele Graziani"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "d3": "^4.2.0",
+    "watch": "^0.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TBD"
+  }
+}
